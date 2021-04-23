@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevMatias Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+    +Pro:300,900&display=swap">
+    <link rel="stylesheet" href="css/index.css" />
+
+</head>
+
+<body>
+        <header>
+            <div class="logo">
+                <h1> Portfolio </h1>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"> </span>
+            </button>   
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link"> Home </a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link"> About me </a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link"> My Services </a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link"> My work </a></li>
+                </ul>
+            </nav>
+        </header>
+
+            <!-- Introduction  -->
+        <section id="home">
+            <span class="intro">
+                <h1 class="section__title section__title--intro">
+                    Hello, I am <strong>Matias Cukierblat</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Front-end Developer </p>
+                <img class="intro__img" src="imgs/laptop.jpg" alt="A beautiful picture of me">
+            </span>
+        </section> 
+
+        <!-- About me  -->
+        <!-- <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer & developer based on Buenos Aires</p>
+
+            <div class="about-me__body">
+                <p> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere nunc vitae nulla eleifend,
+                    eget pretium est condimentum. Phasellus viverra nec augue et scelerisque. Mauris maximus a velit id egestas. 
+                    Vestibulum auctor et libero vel tincidunt. Morbi dictum pharetra dolor, sed efficitur eros sodales eget. 
+                    Mauris cursus urna ut fringilla sodales. Donec eget placerat elit, vel tincidunt est. Pellentesque feugiat
+                </p>
+                
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere nunc vitae nulla eleifend,
+                    eget pretium est condimentum. Phasellus viverra nec augue et scelerisque. Mauris maximus a velit id egestas. 
+                    Vestibulum auctor et libero vel tincidunt. Morbi dictum pharetra dolor, sed efficitur eros sodales eget. 
+                    Mauris cursus urna ut fringilla sodales. Donec eget placerat elit, vel tincidunt est. Pellentesque feugiat
+                </p>
+            </div>
+
+            <img src="imgs/photo_cv.jpg" alt="Any photo that fits">
+        </section> -->
+        <section class="about-me" id="about">
+            <div class="section__titles">
+                <h2 class="section__title section__title--about">About me</h2>
+                <h3 class="section__title section__title--who">who i am </h3>
+            </div>
+                <div class="about-content">
+                    <div class="about__img">
+                        <img src="imgs/photo_cv.jpg" alt="A beautiful picture of me">
+                    </div>
+                    <div class="about-me__body">
+                        <div class="text">I'm Matias and I'm a Web Developer
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                        <a href="#">Download CV</a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- My services  -->
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin 
+                        Aenean pellentesque eros vel risus maximus, id mollis odio imperdiet. 
+                        libero ipsum consequat justo, vitae gravida ex augue et ligula. 
+                        sit amet, consectetur adipiscing elit. Fusce et placerat tortor.
+                    </p>  
+                </div>
+
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin 
+                        Aenean pellentesque eros vel risus maximus, id mollis odio imperdiet. 
+                        libero ipsum consequat justo, vitae gravida ex augue et ligula. 
+                        sit amet, consectetur adipiscing elit. Fusce et placerat tortor.
+                    </p>   
+                </div>
+
+                <div class="service">
+                    <h3>Database</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin 
+                        Aenean pellentesque eros vel risus maximus, id mollis odio imperdiet. 
+                        libero ipsum consequat justo, vitae gravida ex augue et ligula. 
+                        sit amet, consectetur adipiscing elit. Fusce et placerat tortor.
+                    </p>   
+                </div>
+            </div>
+                    <a href="work" class="btn"> My Work</a>
+        </section>
+
+        <!-- My work  -->
+
+        <section class="my-work" id="work">
+            <h2 class="section__title"> My work </h2>
+            <p class="section__subtitle"></p>
+
+            <div class="portfolio">
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/portfolio1.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/portfolio2.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/portfolio3.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/portfolio4.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/portfolio5.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <a href="mailto:matiascukierblat@gmail.com" class="footer__link">matiascukierblat@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/matias-cukierblat">a</a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://github.com/matiascuki">b</a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/matias-cukierblat">c</a></li>
+
+            </ul>
+        </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
