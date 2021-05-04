@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
     +Pro:300,900&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" />
 
 </head>
@@ -15,7 +17,8 @@
 <body>
         <header>
             <div class="logo">
-                <h1> Portfolio </h1>
+                <i class="fas fa-cookie fa-2x"></i>
+                <img class="header__img" src="./imgs/Portfolio.png" >
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"> </span>
@@ -37,33 +40,11 @@
                     Hello, I am <strong>Matias Cukierblat</strong>
                 </h1>
                 <p class="section__subtitle section__subtitle--intro">Front-end Developer </p>
-                <img class="intro__img" src="imgs/laptop.jpg" alt="A beautiful picture of me">
+                <img class="intro__img" src="imgs/laptop.jpg" alt="laptop image">
             </span>
         </section> 
 
-        <!-- About me  -->
-        <!-- <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Designer & developer based on Buenos Aires</p>
-
-            <div class="about-me__body">
-                <p> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere nunc vitae nulla eleifend,
-                    eget pretium est condimentum. Phasellus viverra nec augue et scelerisque. Mauris maximus a velit id egestas. 
-                    Vestibulum auctor et libero vel tincidunt. Morbi dictum pharetra dolor, sed efficitur eros sodales eget. 
-                    Mauris cursus urna ut fringilla sodales. Donec eget placerat elit, vel tincidunt est. Pellentesque feugiat
-                </p>
-                
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere nunc vitae nulla eleifend,
-                    eget pretium est condimentum. Phasellus viverra nec augue et scelerisque. Mauris maximus a velit id egestas. 
-                    Vestibulum auctor et libero vel tincidunt. Morbi dictum pharetra dolor, sed efficitur eros sodales eget. 
-                    Mauris cursus urna ut fringilla sodales. Donec eget placerat elit, vel tincidunt est. Pellentesque feugiat
-                </p>
-            </div>
-
-            <img src="imgs/photo_cv.jpg" alt="Any photo that fits">
-        </section> -->
+                <!-- About me  -->
         <section class="about-me" id="about">
             <div class="section__titles">
                 <h2 class="section__title section__title--about">About me</h2>
@@ -147,20 +128,23 @@
         </section>
 
         <!-- Footer -->
-        <footer>
+        <footer class="footer">
             <a href="mailto:matiascukierblat@gmail.com" class="footer__link">matiascukierblat@gmail.com</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link"
-                    href="https://www.linkedin.com/in/matias-cukierblat">a</a></li>
-                <li class="social-list__item"><a class="social-list__link"
-                    href="https://github.com/matiascuki">b</a></li>
-                <li class="social-list__item"><a class="social-list__link"
-                    href="https://www.linkedin.com/in/matias-cukierblat">c</a></li>
-
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/matias-cukierblat">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/matiascuki">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
 
-    <script src="js/scripts.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
